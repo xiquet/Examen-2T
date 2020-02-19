@@ -42,15 +42,14 @@ header {
     background-color: white;
     color: blue;
 }
-.pulsar {
-    padding-right: 200px;
-}
-.Pulsar:focus {
+td:focus {
     border: red;
+    background-color: blue;
   }
 tr {
     background-color: goldenrod;
 }
+
 td {
     padding-right: 50px;
     text-align: left;
@@ -59,13 +58,16 @@ td {
 .cuadrito {
     background-color: blue;
     border-color: red;
-    
-
+    width: 50px;
+}
+.anchura {
+    padding-left: 50%;
 }
 .bdecolores {
     background-color: chocolate;
     color: yellow;
     text-align: center;
+    font-size: 40px;
     border: 20px;
     border-top: blue 10px dotted;
     border-bottom: yellow 10px dashed;
