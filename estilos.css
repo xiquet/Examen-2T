@@ -42,7 +42,7 @@ header {
     background-color: white;
     color: blue;
 }
-td:focus {
+.pulsar:focus {
     border: red;
     background-color: blue;
   }
@@ -58,7 +58,6 @@ td {
 .cuadrito {
     background-color: blue;
     border-color: red;
-    width: 50px;
 }
 .anchura {
     padding-left: 50%;
