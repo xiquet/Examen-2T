@@ -28,13 +28,10 @@ header {
     float: left;
     
 }
-.primeralinea::first-line {
-    color: red;
-}
 .fondoarticle1 {
     background-color: rgb(110,218,96);
 }
-.fondoarticle2 {
+.fondosection1 {
     background-color: blanchedalmond;
 }
 .Espanya:hover {
@@ -45,7 +42,38 @@ header {
     background-color: white;
     color: blue;
 }
+.pulsar {
+    padding-right: 200px;
+}
 .Pulsar:focus {
     border: red;
   }
-  
+tr {
+    background-color: goldenrod;
+}
+td {
+    padding-right: 50px;
+    text-align: left;
+}
+
+.cuadrito {
+    background-color: blue;
+    border-color: red;
+    
+
+}
+.bdecolores {
+    background-color: chocolate;
+    color: yellow;
+    text-align: center;
+    border: 20px;
+    border-top: blue 10px dotted;
+    border-bottom: yellow 10px dashed;
+    border-left: red 20px solid;
+    border-right: red 20px solid;
+
+}
+.futer {
+    background-color: rgb(238, 75 ,75);
+    padding-bottom: 15px;
+}
